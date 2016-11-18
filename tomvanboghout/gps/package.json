@@ -1,0 +1,17 @@
+{
+  "name": "gps",
+  "version": "0.0.0",
+  "description": "Service",
+  "author": "tomvanboghout <tom.vanboghout@gmail.com>",
+  "main": "f/findcity/index.js",
+  "dependencies": {
+    "cities": "^1.1.2"
+  },
+  "private": true,
+  "stdlib": {
+    "name": "tomvanboghout/gps",
+    "defaultFunction": "findcity",
+    "timeout": 10000,
+    "publish": false
+  }
+}
