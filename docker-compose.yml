@@ -1,0 +1,7 @@
+version: '2'
+services:
+  microservice_gps:
+    build: .
+    command: npm -v
+    volumes:
+      - .:/home/app/microservice_gps
